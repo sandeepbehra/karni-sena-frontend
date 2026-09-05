@@ -1,0 +1,330 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "events": "Events",
+    "media": "Media",
+    "blogs": "Blogs",
+    "contact": "Contact Us",
+    "login": "Login",
+    "joinUs": "Join Us",
+    "profile": "My Profile",
+    "dashboard": "Dashboard",
+    "membership": "Membership",
+    "logout": "Logout"
+  },
+
+  "Login":{
+  "welcome": "Welcome Back",
+  "title": "Login",
+  "subtitle": "Login to continue to your account.",
+  "email": "Email Address",
+  "emailPlaceholder": "Enter your email address",
+  "password": "Password",
+  "passwordPlaceholder": "Enter your password",
+  "forgotPassword": "Forgot Password?",
+  "button": "Login",
+  "loading": "Logging in...",
+  "noAccount": "Don't have an account?",
+  "signup": "Create Account",
+  "loginError": "Unable to login."
+},
+
+"Signup": {
+  "account": "Create Account",
+  "title": "Sign Up",
+  "subtitle": "Create your account to continue.",
+
+  "name": "Full Name",
+  "namePlaceholder": "Enter your full name",
+
+  "email": "Email Address",
+  "emailPlaceholder": "Enter your email address",
+
+  "mobile": "Mobile Number",
+  "mobilePlaceholder": "Enter your 10-digit mobile number",
+
+  "password": "Password",
+  "passwordPlaceholder": "Create a password",
+
+  "confirmPassword": "Confirm Password",
+  "confirmPasswordPlaceholder": "Enter your password again",
+
+  "button": "Create Account",
+  "loading": "Creating Account...",
+
+  "alreadyAccount": "Already have an account?",
+  "login": "Login",
+
+  "show": "Show password",
+  "hide": "Hide password",
+
+  "nameRequired": "Please enter your full name.",
+  "invalidEmail": "Please enter a valid email address.",
+  "invalidMobile": "Please enter a valid 10-digit mobile number.",
+  "passwordLength": "Password must be at least 6 characters.",
+  "passwordMismatch": "Passwords do not match.",
+  "signupError": "Unable to create your account."
+},
+
+ "Dashboard": {
+  "dashboard": "Dashboard",
+  "welcome": "Welcome",
+  "subtitle": "Manage your profile and membership from your dashboard.",
+  "userAccount": "Registered User",
+  "email": "Email Address",
+  "mobile": "Mobile Number",
+  "viewProfile": "View Profile",
+
+  "membership": "Membership",
+
+  "notMember": "Become a Member",
+  "notMemberDescription": "You have not applied for membership yet. Join the organization and become a part of our community.",
+  "joinMembership": "Join Membership",
+
+  "underReview": "Application Under Review",
+  "underReviewDescription": "Your membership application has been submitted and is currently being reviewed.",
+  "checkStatus": "Check Application Status",
+
+  "approved": "Active Member",
+  "membershipId": "Membership ID",
+  "viewMembership": "View Member Profile",
+
+  "rejected": "Application Not Approved",
+  "rejectedDescription": "Your membership application was not approved. View the application status for more information.",
+  "viewDetails": "View Details"
+},
+
+  "Membership": {
+    "title": "Become a Member",
+    "description": "Join our organization and become a part of our community.",
+    "joinNow": "Join Now",
+    "personalDetails": "Personal Details",
+    "addressDetails": "Address Details",
+    "membershipDetails": "Membership Details",
+    "review": "Review Application",
+    "next": "Next",
+    "back": "Back",
+    "submit": "Submit Application"
+  },
+  "Profile": {
+  "account": "Account",
+  "title": "My Profile",
+  "subtitle": "View and manage your personal account information.",
+  "registeredUser": "Registered User",
+  "editProfile": "Edit Profile",
+  "fullName": "Full Name",
+  "email": "Email Address",
+  "mobile": "Mobile Number",
+  "joinedOn": "Joined On",
+  "changePassword": "Change Password"
+},
+"EditProfile": {
+  "account": "Account",
+  "title": "Edit Profile",
+  "subtitle": "Update your personal account information.",
+  "back": "Back to Profile",
+  "profilePhoto": "Profile Photo",
+  "photoHint": "Upload a clear profile photo.",
+  "fullName": "Full Name",
+  "email": "Email Address",
+  "mobile": "Mobile Number",
+  "cancel": "Cancel",
+  "save": "Save Changes",
+  "saving": "Saving...",
+  "success": "Profile updated successfully."
+},
+"ChangePassword": {
+  "title": "Change Password",
+  "subtitle": "Choose a strong password to keep your account secure.",
+  "back": "Back to Profile",
+  "currentPassword": "Current Password",
+  "newPassword": "New Password",
+  "confirmPassword": "Confirm New Password",
+  "button": "Update Password",
+  "updating": "Updating...",
+  "passwordMismatch": "New password and confirm password do not match.",
+  "passwordLength": "Password must be at least 6 characters.",
+  "success": "Password changed successfully.",
+  "error": "Unable to change password."
+},
+"MembershipForm": {
+  "membership": "Membership Application",
+  "title": "Join Karni Sena",
+  "subtitle": "Complete the application form below to submit your membership request.",
+
+  "personalDetails": "Personal Details",
+  "personalDescription": "Provide your basic personal and contact information.",
+
+  "addressDetails": "Address Details",
+  "addressDescription": "Provide your current residential address.",
+
+  "professionalDetails": "Professional Details",
+  "professionalDescription": "Provide your occupation and select your preferred role.",
+
+  "review": "Review & Submit",
+  "reviewDescription": "Please verify all information carefully before submitting your application.",
+
+  "photo": "Profile Photo",
+  "photoHint": "Upload JPG, PNG or WEBP. Maximum size 5 MB.",
+
+  "fullName": "Full Name",
+  "guardianName": "Guardian Name",
+  "mobileNumber": "Mobile Number",
+  "alternativeNumber": "Alternative Mobile Number",
+  "email": "Email Address",
+
+  "street": "Street / Address",
+  "city": "City",
+  "country": "Country",
+  "state": "State",
+  "district": "District",
+  "pincode": "Pincode",
+
+  "occupation": "Occupation",
+  "role": "Role",
+
+  "selectCountry": "Select Country",
+  "selectState": "Select State",
+  "selectDistrict": "Select District",
+  "selectOccupation": "Select Occupation",
+  "selectRole": "Select Role",
+
+  "backToJoinUs": "Back to Join Us",
+  "back": "Back",
+  "next": "Next",
+  "submit": "Submit Application",
+  "submitting": "Submitting...",
+
+  "requiredFields": "Please complete all required fields before continuing.",
+  "invalidMobile": "Please enter a valid 10-digit mobile number.",
+  "invalidAlternativeMobile": "Please enter a valid 10-digit alternative mobile number.",
+  "invalidEmail": "Please enter a valid email address.",
+  "invalidPincode": "Please enter a valid 6-digit pincode.",
+  "invalidPhoto": "Please upload a JPG, PNG or WEBP image.",
+  "photoTooLarge": "Photo size must not exceed 5 MB.",
+  "submitError": "Unable to submit membership application."
+},
+"JoinUs": {
+  "eyebrow": "Membership",
+  "title": "Become a Part of Karni Sena",
+  "description": "Join the organization, contribute to social initiatives, and become a part of a growing community committed to service and cultural values.",
+  "applyNow": "Apply for Membership",
+  "dashboard": "Go to Dashboard",
+
+  "whyJoin": "Why Join",
+  "whyJoinTitle": "Be a Part of the Community",
+  "whyJoinDescription": "Membership gives you an opportunity to participate, contribute and stay connected with organizational activities.",
+
+  "communityTitle": "Community",
+  "communityDescription": "Connect with members and participate in community initiatives.",
+
+  "serviceTitle": "Social Service",
+  "serviceDescription": "Take part in social programs and contribute through meaningful activities.",
+
+  "identityTitle": "Member Identity",
+  "identityDescription": "Approved members receive an official membership identity and member profile.",
+
+  "benefitsTitle": "Membership Benefits",
+  "benefit1": "Participate in organizational and community activities.",
+  "benefit2": "Stay informed about upcoming programs and events.",
+  "benefit3": "Build connections with members across different regions.",
+  "benefit4": "Receive an official member profile after approval.",
+
+  "ready": "Ready to Join?",
+  "ctaTitle": "Submit Your Membership Application",
+  "ctaDescription": "Complete the membership form with your personal, address and professional details.",
+  "startApplication": "Start Application",
+  "checking": "Checking..."
+},
+"MembershipStatus": {
+  "membership": "Membership",
+  "title": "Application Status",
+  "subtitle": "Track the current status of your membership application.",
+
+  "loading": "Loading your membership status...",
+
+  "noApplication": "No Membership Application Found",
+  "noApplicationDescription": "You have not submitted a membership application yet.",
+  "applyMembership": "Apply for Membership",
+
+  "pending": "Pending Review",
+  "pendingTitle": "Your Application is Under Review",
+  "pendingDescription": "Your membership application has been submitted successfully. The organization is currently reviewing your details.",
+
+  "approved": "Approved",
+  "approvedTitle": "Your Membership is Approved",
+  "approvedDescription": "Congratulations! Your membership application has been approved.",
+
+  "rejected": "Not Approved",
+  "rejectedTitle": "Your Application Was Not Approved",
+  "rejectedDescription": "Your membership application could not be approved at this time.",
+
+  "applicationId": "Application ID",
+  "appliedOn": "Applied On",
+  "membershipNumber": "Membership Number",
+  "reason": "Reason",
+
+  "dashboard": "Go to Dashboard",
+  "viewMemberProfile": "View Member Profile"
+},
+"MemberProfile": {
+  "loading": "Loading member profile...",
+  "backDashboard": "Back to Dashboard",
+
+  "activeMember": "Active Member",
+  "memberOfOrganization": "Official Member of Karni Sena",
+
+  "membershipId": "Membership ID",
+  "membershipStatus": "Membership Status",
+  "approved": "Approved",
+  "approvedDescription": "Your membership has been approved and is currently active.",
+
+  "personalDetails": "Personal Details",
+  "fullName": "Full Name",
+  "guardianName": "Guardian Name",
+  "email": "Email Address",
+  "mobile": "Mobile Number",
+  "alternativeMobile": "Alternative Mobile Number",
+
+  "addressDetails": "Address Details",
+  "currentAddress": "Current Address",
+
+  "professionalDetails": "Professional Details",
+  "occupation": "Occupation",
+  "role": "Role",
+
+  "membershipDetails": "Membership Details",
+  "applicationDate": "Application Date",
+  "approvedDate": "Approved Date"
+},
+"Navbar": {
+  "brand": "Karni Sena",
+  "tagline": "Service • Culture • Unity",
+
+  "home": "Home",
+  "about": "About Us",
+  "events": "Events",
+  "media": "Media",
+  "blogs": "Blogs",
+  "contact": "Contact Us",
+
+  "login": "Login",
+  "joinUs": "Join Us",
+
+  "dashboard": "Dashboard",
+  "myProfile": "My Profile",
+  "joinMembership": "Join Membership",
+  "membershipStatus": "Membership Status",
+  "memberProfile": "Member Profile",
+  "logout": "Logout",
+
+  "registeredUser": "Registered User",
+  "pendingMember": "Membership Pending",
+  "activeMember": "Active Member",
+  "membershipRejected": "Membership Not Approved",
+
+  "language": "Language",
+  "user": "User"
+}
+}
