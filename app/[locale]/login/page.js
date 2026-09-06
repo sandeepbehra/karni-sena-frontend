@@ -62,11 +62,8 @@ export default function LoginPage() {
 
     try {
       /*
-      ==========================================
       MOCK USER
-      ==========================================
-
-      Later actual backend response yahan aayega.
+    Later actual backend response yahan aayega.
       */
 
       const userData = {

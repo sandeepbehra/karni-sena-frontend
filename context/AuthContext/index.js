@@ -16,13 +16,8 @@ const AUTH_CHANGE_EVENT =
   "karni_sena_auth_change";
 
 /*
-==========================================
-SUBSCRIBE
-==========================================
-
 storage event:
 - dusre browser tab me localStorage change ho
-
 custom event:
 - same tab me login/logout/update ho
 */
@@ -51,11 +46,7 @@ function subscribe(callback) {
   };
 }
 
-/*
-==========================================
-CLIENT SNAPSHOT
-==========================================
-*/
+// CLIENT SNAPSHOT
 
 function getSnapshot() {
   return (
@@ -66,14 +57,10 @@ function getSnapshot() {
 }
 
 /*
-==========================================
 SERVER SNAPSHOT
-==========================================
-
-Server aur hydration ke first render
+.Server aur hydration ke first render
 dono me empty string milegi.
-
-Isi wajah se hydration mismatch nahi hoga.
+.Isi wajah se hydration mismatch nahi hoga.
 */
 
 function getServerSnapshot() {
@@ -81,9 +68,7 @@ function getServerSnapshot() {
 }
 
 /*
-==========================================
 TRIGGER AUTH UPDATE
-==========================================
 */
 
 function notifyAuthChange() {
@@ -95,9 +80,7 @@ function notifyAuthChange() {
 }
 
 /*
-==========================================
 SAVE USER
-==========================================
 */
 
 function saveUser(userData) {
@@ -116,9 +99,7 @@ function saveUser(userData) {
 }
 
 /*
-==========================================
 READ CURRENT USER
-==========================================
 */
 
 function getCurrentUser() {
@@ -146,9 +127,7 @@ function getCurrentUser() {
 }
 
 /*
-==========================================
 AUTH PROVIDER
-==========================================
 */
 
 export function AuthProvider({
@@ -175,9 +154,7 @@ export function AuthProvider({
     );
 
   /*
-  ========================================
   PARSE USER
-  ========================================
   */
 
   const user = useMemo(() => {
@@ -200,9 +177,7 @@ export function AuthProvider({
   }, [storedUserString]);
 
   /*
-  ========================================
   LOGIN
-  ========================================
   */
 
   const login = (userData) => {
@@ -210,9 +185,7 @@ export function AuthProvider({
   };
 
   /*
-  ========================================
   SIGNUP
-  ========================================
   */
 
   const signup = (userData) => {
@@ -220,11 +193,8 @@ export function AuthProvider({
   };
 
   /*
-  ========================================
   SET USER
-  ========================================
-
-  Existing code compatibility ke liye.
+Existing code compatibility ke liye.
   */
 
   const setUser = (
@@ -234,9 +204,7 @@ export function AuthProvider({
   };
 
   /*
-  ========================================
   UPDATE USER
-  ========================================
   */
 
   const updateUser = (
@@ -260,9 +228,7 @@ export function AuthProvider({
   };
 
   /*
-  ========================================
   UPDATE MEMBERSHIP
-  ========================================
   */
 
   const updateMembership = (
@@ -294,9 +260,7 @@ export function AuthProvider({
   };
 
   /*
-  ========================================
   LOGOUT
-  ========================================
   */
 
   const logout = () => {
@@ -343,9 +307,7 @@ export function AuthProvider({
 }
 
 /*
-==========================================
 AUTH HOOK
-==========================================
 */
 
 export function useAuth() {

@@ -53,9 +53,9 @@ export default function SignupPage() {
     "/dashboard";
 
   /*
-  ============================================
+ 
   FORM STATE
-  ============================================
+
   */
 
   const [formData, setFormData] =
@@ -84,9 +84,9 @@ export default function SignupPage() {
     useState("");
 
   /*
-  ============================================
+  
   INPUT CHANGE
-  ============================================
+
   */
 
   const handleChange = (e) => {
@@ -118,9 +118,7 @@ export default function SignupPage() {
   };
 
   /*
-  ============================================
   SIGNUP
-  ============================================
   */
 
   const handleSubmit = async (e) => {
@@ -178,9 +176,9 @@ export default function SignupPage() {
 
     try {
       /*
-      ==========================================
+
       BACKEND API LATER
-      ==========================================
+     
 
       Example:
 
@@ -219,9 +217,7 @@ export default function SignupPage() {
       */
 
       /*
-      ==========================================
       MOCK USER
-      ==========================================
 
       Backend connect hone ke baad
       ye remove kar dena.
@@ -263,9 +259,7 @@ export default function SignupPage() {
       signup(userData);
 
       /*
-      ==========================================
       REDIRECT
-      ==========================================
 
       Normal signup:
       /dashboard
@@ -292,11 +286,10 @@ export default function SignupPage() {
   };
 
   /*
-  ============================================
   LOGIN LINK
 
   redirect preserve karenge.
-  ============================================
+  
   */
 
   const loginHref =
