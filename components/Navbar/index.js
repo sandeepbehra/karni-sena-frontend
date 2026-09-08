@@ -406,7 +406,7 @@ export default function Navbar() {
                   <div className="max-w-[130px] text-left">
 
                     <p className="truncate text-sm font-semibold text-gray-900">
-                      {user?.name ||
+                      {user?.userData?.fullName ||
                         t("user")}
                     </p>
 
@@ -538,12 +538,12 @@ function ProfileDropdown({
           <div className="min-w-0">
 
             <p className="truncate text-sm font-bold text-gray-900">
-              {user?.name ||
+              {user?.userData?.fullName ||
                 t("user")}
             </p>
 
             <p className="truncate text-xs text-gray-500">
-              {user?.email || "-"}
+              {user?.userData?.email || "-"}
             </p>
 
           </div>
@@ -648,18 +648,18 @@ function UserAvatar({
     ? "h-11 w-11"
     : "h-9 w-9";
 
-  if (user?.profileImage) {
+  if (user?.userData?.profilePhotoUrl) {
     return (
       <img
-        src={user.profileImage}
-        alt={user?.name || "User"}
+        src={user.userData?.profilePhotoUrl}
+        alt={user?.userData?.fullName || "User"}
         className={`${size} shrink-0 rounded-full object-cover`}
       />
     );
   }
 
   const initial =
-    user?.name
+    user?.userData?.fullName
       ?.trim()
       ?.charAt(0)
       ?.toUpperCase() ||
@@ -812,12 +812,12 @@ function MobileMenu({
                 <div className="min-w-0">
 
                   <p className="truncate text-sm font-bold text-gray-900">
-                    {user?.name ||
+                    {user?.userData?.fullName ||
                       t("user")}
                   </p>
 
                   <p className="truncate text-xs text-gray-500">
-                    {user?.email ||
+                    {user?.userData?.email ||
                       "-"}
                   </p>
 
