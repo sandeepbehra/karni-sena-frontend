@@ -69,24 +69,24 @@ export default function Navbar() {
     },
     {
       label: t("about"),
-      href: "/aboutus",
+      href: "/about-us",
     },
     {
       label: t("events"),
       href: "/events",
     },
-    {
-      label: t("media"),
-      href: "/media",
-    },
-    {
-      label: t("blogs"),
-      href: "/blogs",
-    },
-    {
-      label: t("contact"),
-      href: "/contactus",
-    },
+    // {
+    //   label: t("media"),
+    //   href: "/media",
+    // },
+    // {
+    //   label: t("blogs"),
+    //   href: "/blogs",
+    // },
+    // {
+    //   label: t("contact"),
+    //   href: "/contactus",
+    // },
   ];
 
   /*

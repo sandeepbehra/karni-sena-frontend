@@ -1,0 +1,47 @@
+{
+  "youthLeadership": {
+    "badge": {
+      "en": "National Youth Leadership",
+      "hin": "राष्ट्रीय युवा नेतृत्व"
+    },
+    "name": {
+      "en": "Sri Nilamadhab Singh Deo",
+      "hin": "श्री नीलमधब सिंह देव"
+    },
+    "alias": {
+      "en": "Neal Dada",
+      "hin": "नील दादा"
+    },
+    "designation": {
+      "en": "National Youth President, Karni Sena",
+      "hin": "राष्ट्रीय युवा अध्यक्ष, करणी सेना"
+    },
+    "heritage": {
+      "en": "M. Rampur Royal Family, Kalahandi, Odisha",
+      "hin": "एम. रामपुर राजपरिवार, कालाहांडी, ओडिशा"
+    },
+    "biography": {
+      "en": "An emerging youth leader, social worker, and compelling voice for India's dynamic new generation. Blending ancestral heritage with progressive public service, he spearheads nationwide initiatives in cultural consciousness, youth empowerment, and humanitarian action.",
+      "hin": "उभरते युवा नेता, समाजसेवी एवं भारत की युवा पीढ़ी के सशक्त स्वर। ऐतिहासिक विरासत और प्रगतिशील दृष्टि के समन्वय के साथ वे सांस्कृतिक चेतना, युवा सशक्तिकरण और राष्ट्रव्यापी सामाजिक सेवा का नेतृत्व कर रहे हैं।"
+    },
+    "quote": {
+      "en": "India has the largest youth power in the world. The real challenge is not just empowering that energy, but giving it the right direction—Nation First.",
+      "hin": "भारत के पास विश्व की सबसे बड़ी युवा शक्ति है। वास्तविक चुनौती केवल इस ऊर्जा को सशक्त बनाने की नहीं, बल्कि इसे सही दिशा देने की है—राष्ट्र सर्वोपरि।"
+    },
+    "highlights": [
+      {
+        "en": "Founder, 'My People, My Strength' humanitarian initiative",
+        "hin": "'माई पीपल, माई स्ट्रेंथ' जनकल्याणकारी पहल के संस्थापक"
+      },
+      {
+        "en": "Former Associate, HWPL Peace Club (South Korea)",
+        "hin": "पूर्व सहयोगी, एचडब्ल्यूपीएल पीस क्लब (दक्षिण कोरिया)"
+      },
+      {
+        "en": "Active mobilizer across collegiate & grassroots student networks",
+        "hin": "विश्वविद्यालयों एवं छात्र संगठनों में प्रभावी समन्वय"
+      }
+    ],
+    "image": "/leadership/neal-singh-deo.webp"
+  }
+}

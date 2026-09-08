@@ -26,13 +26,13 @@ const LandingPage = () => {
     <div className="min-h-screen w-full bg-white text-[#4A4A4A] relative selection:bg-[#fa9e19] selection:text-white overflow-hidden md:overflow-visible">
       
       {/* Navigation Layer */}
-      {/* <Navbar onOpenModal={() => handleOpenModal("join")} /> */}
+      
 
       <main className="flex flex-col w-full">
         
         {/* A. Organization Introduction (Hero) */}
         {/* We can set up GSAP or Framer Motion hooks inside this component for that high-end reveal */}
-        <section id="introduction" className="relative">
+        <section id="home" className="relative">
           <HeroIntroduction onOpenModal={() => handleOpenModal("join")} />
         </section>
 
@@ -49,9 +49,9 @@ const LandingPage = () => {
 
         {/* D. Upcoming Campaigns / Events */}
         {/* Ready to map dynamic data fetched from the Express backend */}
-        <section id="campaigns" className="relative">
+        {/* <section id="campaigns" className="relative">
           <UpcomingCampaigns onRegister={(eventId) => handleOpenModal(`event_${eventId}`)} />
-        </section>
+        </section> */}
 
       </main>
 

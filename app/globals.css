@@ -2,14 +2,18 @@
 
 /* 
   Tailwind v4 @theme block 
-  This automatically generates all your utility classes (e.g., bg-karni-saffron, font-serif) 
+  Defining colors here automatically generates classes like text-saffron, bg-karni-red, etc.
 */
 @theme {
-  /* Typography - Mapped to your Next.js variables from layout.js */
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
-  --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
+  /* Typography - Mapped to your Next.js variables */
+  --font-sans: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-lora), ui-serif, Georgia, serif;
 
-  /* Karni Sena Brand Colors */
+  /* Short-hand Colors (Use these like: text-saffron, bg-red) */
+  --color-saffron: #fa9e19;
+  --color-red: #be1a22;
+
+  /* Full Karni Sena Brand Colors */
   --color-karni-saffron: #fa9e19;
   --color-karni-deep-orange: #fb7d0a;
   --color-karni-vivid: #fe6509;
@@ -17,26 +21,19 @@
   --color-karni-red: #be1a22;
   --color-karni-gold: #c89e5e;
 
-  /* Theme Defaults */
-  --color-background: #ffffff;
-  --color-foreground: #333333; /* Deep Charcoal for readability */
+  /* Professional Light Theme Defaults */
+  --color-background: #FBFBF9; /* Alabaster off-white */
+  --color-foreground: #2A2A2A; /* Deep charcoal (better than harsh black) */
 }
 
-/* Base CSS Variables (Optional, but good for raw CSS usage outside Tailwind) */
 :root {
-  --background: #ffffff;
-  --foreground: #333333;
+  --background: #FBFBF9;
+  --foreground: #2A2A2A;
 }
-
-/* 
-  Removed the dark mode media query to enforce the clean, 
-  high-end editorial light theme across all devices. 
-*/
 
 body {
   background-color: var(--background);
   color: var(--foreground);
-  /* Default all body text to the clean Inter font */
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -44,11 +41,11 @@ body {
 
 /* Global highlight color using the primary saffron */
 ::selection {
-  background-color: var(--color-karni-saffron);
+  background-color: var(--color-saffron);
   color: #ffffff;
 }
 
-/* Custom Utilities that aren't natively in Tailwind */
+/* Custom Utilities */
 @layer utilities {
   .scrollbar-hide {
     -ms-overflow-style: none;  /* IE and Edge */
@@ -57,7 +54,4 @@ body {
   .scrollbar-hide::-webkit-scrollbar {
     display: none; /* Chrome, Safari and Opera */
   }
-}
-html[lang="hi"] body {
-  font-family: var(--font-hindi), sans-serif;
 }
